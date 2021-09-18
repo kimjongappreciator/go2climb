@@ -236,8 +236,9 @@
   
 /*seccion 4*/
 .sec4 {
-    padding-top: 100px;
-    min-height: 50vh;
+    background-image: url(media/bg4.jpg);
+    padding-top: 60px;
+    min-height: 35vh;
 }
 .sec4 h2{
     padding-top: 5px;
@@ -253,10 +254,11 @@
 .footer{
     min-height: 15vh;
     max-height: 25vh;
-    background-color: rgba(175, 161, 165, 0.959) 
+    background-color: rgba(34, 45, 51) 
 }
 
 .footer .sec2title h1{
+    color: #fff;
     padding-top: 10px;
     text-align: center;
 }
@@ -271,6 +273,7 @@
     
 }
 .footer p{
+    color: #fff;
     text-align: center;
     padding-top: 5px;
     font-size: x-small;
@@ -361,12 +364,15 @@ button {
   }
 
   .contacto{
+      color: #fff;
       margin-right: 150px ;
   }
   .contacto h3{
+      color: #fff;
     text-align: left ;
 }
 
 .jobs{
+    color: #fff;
     margin-right: 120px;
 }
