@@ -1,30 +1,285 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto';
     }
+
+
+/*seccion 1*/
 
 .sec1
 {
     background-image: url(media/mo1.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat fixed;
+    -webkit-background-size: cover;
     background-size: 100%;
+    background-position-y: 40%;
     position:relative; 
-    width: 100%;
-    height: 900px;
+    
+    min-width: 1467px;
+    
+    min-height: 900px;
+    max-height: 900px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
 }
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 900px;
+    
+    
+   
+}
+.content .textBox h2 
+{
+    position: relative;
+    color: white;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 1200;
+
+}
+.content .textBox h2 span
+{
+    font-size: 2em;
+}
+.content .textBox p
+{
+    color: white;
+}
+
+
+
+/*seccion 2*/
 .sec2
 {
-    background:white;
-    min-height:100vh
+    background:linear-gradient( rgb(37, 38, 36),rgb(85, 111, 124));
+    min-height:auto;
+    
+    position: relative;
+}
+.sec2 .sec2title h1 
+{   
+    color: rgb(206, 195, 198);
+    text-align:center;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+.sec2 .sec2title p{
+    color: rgb(206, 195, 198);
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+.sec2 .col
+{
+    float: left;
+    width: 50%;
+}
+.sec2 .col p
+{
+    color: rgb(206, 195, 198);
+    text-align: justify left;
+    padding-top: 10%;
+    font-size: 2.5em;
+    line-height: 2.5em;
+    font-weight: 400;
+    
+    
+}
+.sec2 .col h3
+{
+    color: rgb(206, 195, 198);
+    padding-top: 10%;
+    font-size: 2.5em;
+    line-height: 0.5em;
+    font-weight: 400;
+    
+}
+.sec2 .row::after
+{
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.sec2 .f2
+{
+    position: relative;
+    
+    margin-left: 20%;
+    max-width: 45%;
+    min-height: 375px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.678);
+    
+}
+
+.sec2 a{
+  padding-left: 15%;
+
+}
+/*seccion 3*/
+.sec3
+{
+    background-image: url(/media/alto.jpg);
+    position: relative;
+    max-height:120vh;
+    /*background:white;*/
+    min-height: 80vh;
+    padding-top: 2.5%;
+    
+    
+}
+.sec3 .row{
+    padding-top:55px ;
+    display: flex;
+    justify-content: center;
+}
+
+.Avatar{
+    min-width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    margin-right: 55px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 350px;
+    width:  285px;
+    padding-top: 25px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.171);
+  }
+  
+  /* Add some padding inside the card container */
+.container {
+    padding-top: 50px;
+    padding-left: 5px;
+    text-align: center;
+    
+}
+
+.card2 {
+    margin-right: 55px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 350px;
+    width:  285px;
+    padding-top: 25px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+ .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.171);
+
+  }
+  
+ .card3 {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 350px;
+    width:  285px;
+    padding-top: 25px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+ .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 0.171);
+}
+  
+
+
+.sec3 .sec2title h1{
+    text-align: center;
+    color :rgb(206, 195, 198);
+}
+.sec3 .sec2title p{
+    text-align: center;
+    color :rgb(206, 195, 198);
+}
+
+
+  
+  
+/*seccion 4*/
+.sec4 {
+    padding-top: 100px;
+    min-height: 50vh;
+}
+.sec4 h2{
+    padding-top: 5px;
+    font-size: medium;
+    text-align:center;
+}
+
+.sec4 .sec2title h1{
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    min-height: 15vh;
+    max-height: 25vh;
+    background-color: rgba(206, 195, 198, 0.452) 
+}
+
+.footer .sec2title h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.footer .row{
+    display: flex;
+    justify-content:  center;
+}
+.footer h3{
+    text-align: center;
+    padding-top: 5px;
+    font-size: small;
+    
+}
+.footer p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: x-small;
+}
+
+.logo{
+    padding-top: 15px;
+    max-width: 25px;
+    margin-right: 25px;
 }
 header
 {
@@ -65,71 +320,53 @@ header ul li a:hover
     color:ivory;
 }
 
-.content
-{
-    position: relative;
-    width: 100%;
+.botones{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
-.content .textBox
-{
+button {
+    margin-top: 30px;
+    margin-left: 15px;
     position: relative;
-    max-width: 600px;
-    margin-top: +10%;
-   
-}
-.content .textBox h2 
-{
-    color: white;
-    font-size: 3em;
-    line-height: 1.5em;
-    font-weight: 900;
+    overflow: hidden;
+    -webkit-transition: background 400ms;
+    transition: background 400ms;
+    color: #fff;
+    background-color: rgb(93, 151, 168);
+    padding: 1em 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    outline: 0;
+    border: 0;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .ripple {
+    background-position: center;
+    -webkit-transition: background 0.8s;
+    transition: background 0.8s;
+  }
+  
+  .ripple:hover {
+    background: rgb(131, 160, 168) radial-gradient(circle, transparent 1%, rgb(131, 160, 168) 1%) center/15000%;
+  }
+  
+  .ripple:active {
+    background-color: rgb(206, 195, 198);
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    transition: background 0s;
+  }
 
-}
-.content .textBox h2 span
-{
-    font-size: 2em;
-}
-.content .textBox p
-{
-    color: white;
-}
-
-.sec2 .sec2title h1 
-{
-    text-align:center;
-    padding-top: 2%;
-}
-.sec2 .sec2title p{
-    text-align: center;
-}
-.sec2 .col
-{
-    float: left;
-    width: 50%;
-}
-.sec2 .col p
-{
-    text-align: justify;
-    padding-top: 25%;
-    font-size: 2.5em;
-    line-height: 1.5em;
-    font-weight: 400;
-    
-}
-.sec2 .row::after
-{
-    content: "";
-    display: flex;
-    clear: both;
+  .contacto{
+      margin-right: 150px ;
+  }
+  .contacto h3{
+    text-align: left ;
 }
 
-.sec2 .f2
-{
-    position: relative;
-    padding-top: 5%;
-    padding-left: 20%;
-    max-width: 85%;
+.jobs{
+    margin-right: 120px;
 }
